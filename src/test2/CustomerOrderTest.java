@@ -21,10 +21,10 @@ public class CustomerOrderTest {
         inventory.addItem("Garlic Bread", 15);
     }
 	
- // ToDo: Test placing a valid order
+    // ToDo: Test placing a valid order
  	// Add items to the order, verify the number of items, and check if the total cost is calculated correctly.
 
-     @Test
+    @Test
  	public void testPlaceOrder() {
  	    order.addItem("Pepperoni Pizza", 12.50);
  	    order.addItem("Garlic Bread", 5.00);
